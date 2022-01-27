@@ -137,11 +137,11 @@ def time_stats(df, month, day):
     
     key = df['Start Station'].value_counts().idxmax()
     value = df['Start Station'].value_counts().max()
-    print(key, value,"\n")
+    print(key, value, "\n")
 
     key1 = df['End Station'].value_counts().idxmin()
     value1 = df['End Station'].value_counts().min()
-    print(key1, value1,"\n")
+    print(key1, value1, "\n")
 
     print("What is the breakdown of users?") 
     print("Calculating statistic...")
@@ -151,7 +151,7 @@ def time_stats(df, month, day):
 
     key = df['User Type'].value_counts().idxmin()
     value = df['User Type'].value_counts().min()
-    print(key, value,"\n")
+    print(key, value, "\n")
 
     #display the most common day of week
 
