@@ -1,4 +1,4 @@
-# load important libraries 
+# load important libraries like time, pandas and numpy
 import time
 import pandas as pd
 import numpy as np
@@ -7,6 +7,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+# function that collects the input datat from the user
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -281,6 +282,7 @@ def user_stats(df, city):
     print('-'*40)
 
 
+# main function
 def main():
     while True:
         # get the city, name and day 
@@ -323,7 +325,6 @@ def main():
 
         # time stat
         time_stats(df, month, day)
-
 
         # calculate popular station
         station_stats(df)
