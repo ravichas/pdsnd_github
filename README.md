@@ -1,17 +1,21 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Project was created on Jan 27, 2022 
 
 ### Project Title
-Replace the Project Title
+This is a Python project that uses US bike share data to answer interesting bike share questions.
 
 ### Description
-Describe what your project is about and what it does
+The Python code asks User questions, based on the input, reads in appropriate  US bike share data (not included) 
+and calculates important statistical measures and displays the results.
 
 ### Files used
-Include the files used
+    * bikeshare.py 
+    * README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+* Referred to python documentation page, docs.python.org and 
+pandas documentation page, pandas.pydata.org for general python coding and pandas 
+specific style respectively. 
+* Used Udemy class notes and discussion forum for any project specific questions.
+* Used PEP 8 style guide for python coding. (python.org/dev/peps/pep-0008/)
