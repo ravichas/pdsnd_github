@@ -5,8 +5,16 @@ Project was created on Jan 27, 2022
 This is a Python project that uses US bike share data to answer interesting bike share questions.
 
 ### Description
-The Python code asks User questions, based on the input, reads in appropriate  US bike share data (not included) 
-and calculates important statistical measures and displays the results.
+The Python code carries out the following tasks: 
+   * Asks Users' questions on what dataset would like to analyze 
+       * Use the input to read the dataset 
+   * Asks Users' questions on how to filter the data, month/day/both/none
+       * Use the input to filter the dataset
+   * Asks whether the user would like to see few top lines of the data 
+       * Based on the input displays the data and asks again for input, if the user says, no/no data to display, it moves on   
+   *  Based on the dataset calculates summary statistics and displayes them to the user 
+   *  Asks whether the user would like to choose different input options or quit
+       * Based on the input, the code cycles through or exits the loop
 
 ### Files used
     * bikeshare.py 
