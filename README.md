@@ -14,7 +14,7 @@ The Python code carries out the following tasks:
        * Based on the input displays the data and asks again for input, if the user says, no/no data to display, it moves on   
    *  Based on the dataset calculates summary statistics and displayes them to the user 
    *  Asks whether the user would like to choose different input options or quit
-       * Based on the input, the code cycles through or exits the loop
+       * Based on the input, the code cycles through the above steps or exits the loop
 
 ### Files used
     * bikeshare.py 
